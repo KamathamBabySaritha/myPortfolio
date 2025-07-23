@@ -1,0 +1,140 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: black;
+}
+
+header {
+  background-color: #557fda;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #ccc;
+  max-width: 1400px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #557fda;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #557fda;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: black;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+section img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+form button {
+  width: auto;
+}
+
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section {
+    margin: 10px;
+  }
+}
+
+#Contact form input,
+#Contact form textarea {
+  width: 90%;
+  padding: 6px;
+  font-size: 12px;
+}
+
+#Contact form label {
+  font-size: 14px;
+}
+
+#home h2,
+#Home h2 {
+  text-align: center;
+}
+
+#Contact h4 {
+  font-size: 18px;
+}
+
+#Contact label {
+  font-size: 14px;
+}
+
+#Contact input,
+#Contact textarea {
+  font-size: 13px;
+  padding: 6px;
+  width: 90%;  /* Slightly smaller width */
+}

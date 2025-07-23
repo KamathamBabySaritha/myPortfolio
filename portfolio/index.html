@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1> My Portfolio</h1>
+        <nav id="main_nav">
+            <a href="#" onclick="show('Home')">HOME</a>
+            <a href="#" onclick="show('About')">ABOUT ME</a>
+            <a href="#" onclick="show('Skills')">SKILLS</a>
+            <a href="#" onclick="show('Projects')">PROJECTS</a>
+            <a href="#" onclick="show('Certifications')">CERTIFICATIONS</a>
+            <a href="#" onclick="show('Resume')">RESUME</a>
+            <a href="#" onclick="show('Contact')">CONTACT</a>
+        </nav>
+    </header>
+
+        <section id="Home" class="hidden" >
+            <h2>SELF INTRODUCTION</h2>
+            <p><li> Hello!, my name is Baby Saritha Kamatham. I am a passionate and detail-oriented frontend developer 
+            with a strong foundation in HTML, CSS, and JavaScript.</li>
+            <li>I have recently completed my B.Tech in Computer Sciencewith a specialization in Artificial Intelligence 
+            from Kakinada Institute of Engineering and Technology for Women, affiliated with JNTUK.</li>
+            <li>During my academic journey, I worked on several projects including an "Image Classification System" and a "Fake News
+            Detection web application", where I developed interactive and responsive user interfaces.</li>
+            <li>I also completed internships in Salesforce Development, Full Stack Web Development through Eduskills, and FMML, 
+            which gave me hands-on experience in frontend development and collaboration in real-world environments.</li>
+            <li>I hold certifications in Machine Learning with Go and Infosys Springboard, and I always strive to stay updated with the 
+            latest web technologies. My strengths include time management, fast learning, and the ability to work efficiently in a 
+            team.</li>
+            <li>Now, I’m looking forward to starting my professional journey as a frontend developer and contributing to creating 
+            user-friendly and accessible web applications.</li></p>
+            <button onclick="gohome()">Back</button>
+        </section>
+        <section id="About" class="hidden">
+            <img src="C:\Users\Praveen\OneDrive\Pictures\baby pic.jpg" width="150px" height="150px">
+            <p>I am Baby Saritha Kamatham, a recent B.Tech graduate in Computer Science with a specialization in Artificial 
+                Intelligence from Kakinada Institute of Engineering and Technology, affiliated with JNTUK. I have a strong 
+                interest in web development and enjoy building interactive, responsive user interfaces using HTML, CSS, and 
+                JavaScript.<br>
+                My goal is to grow as a frontend developer by contributing to meaningful projects, learning new technologies, 
+                and solving real-world problems through clean and user-friendly design.</p>
+
+                <ul>
+                    <h4>Soft Skills</h4>
+                    <li>Time management</li>
+                    <li>Quick learner</li>
+                    <li>Team collaboration</li>
+                    <li>Problem-solving mindset</li>
+                </ul>
+                <ul>
+                    <h4>Hobbies</h4>
+                    <li>Drawing</li>
+                    <li>Exploring online tech tutorials</li>
+                    <li>Learning new tools and skills through self-paced courses</li>
+                </ul>
+                <button onclick="gohome()">Back</button>
+        </section>
+        <section id="Skills" class="hidden">
+            <ul>
+                <h4>Frontend Development:</h4>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+            </ul>
+            <ul>
+                <h4>UI/UX & Styling</h4>
+                <li>CSS Flexbox & Grid</li>
+                <li>Media Queries</li>
+            </ul>
+            <ul>
+                <h4>Tools & Technologies</h4>
+                <li>Git & GitHub</li>
+                <li>VS Code</li>
+                <li>Chrome DevTools</li>
+            </ul>
+            <ul>
+                <h4> Fundamentals</h4>
+                <li>Problem-solving</li>
+                <li>Debugging and troubleshooting</li>
+                <li>Code optimization</li>
+            </ul>
+            <ul>
+                <h4>Project Experience</h4>
+                <li>Image Classification</li>
+                <li>Fake News Detection</li>
+                <li>Hands-on practice via internships (Salesforce, Full Stack via Eduskills, FMML)</li>
+            </ul>
+            <ul>
+                <h4>Currently Learning</h4>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>APIs integration</li>
+            </ul>
+            <button onclick="gohome()">Back</button>
+        </section>
+        <section id="Projects" class="hidden">
+            <ul>
+                <h3> Projects</h3>
+                <p><strong>1. Fake News Detection:</strong><br>An intelligent web application that detects fake news using Natural Language 
+                    Processing and Machine Learning.</p>
+                    <li><i>Frontend:</i>HTML, CSS, JavaScript</li>
+                    <li><i>Backend:</i>Python, ML, NLP</li>
+                    <li><i>Features:</i>Real-time prediction, clean UI, user input validation</li>
+            </ul>
+            <ul>
+                <p><strong>2. Image Classification:</strong><br>A web-based image classifier that can predict objects using pre-trained models.</p>
+                <li><i>Frontend:</i>HTML, CSS</li>
+                <li><i>Backend:</i>Python, ML</li>
+                <li><i>Features:</i>Upload image, real-time classification output</li>
+            </ul>
+            <ul>
+                <p><strong>3. Responsive Portfolio Website:</strong><br>A fully responsive and personal portfolio showcasing skills, projects, and resume.</p>
+                <li><i>Technologies:</i>HTML, CSS, JavaScript</li>
+                <li><i>Features: </i>Smooth scroll, mobile-friendly, interactive design</li>
+            </ul>
+            <button onclick="gohome()">Back</button>
+        </section>
+        <section id="Certifications" class="hidden">
+            <ul>
+                <li><h4>Machine Learning with Go</h4>
+                    Offered by: Programming Hub<br>
+                    Learned basics of Machine Learning using Go language, including supervised learning and data handling.
+                </li>
+                <li><h4>Infosys Springboard Certification</h4>
+                    Offered by: Infosys Springboard<br>
+                    Completed courses on web development fundamentals and programming basics.
+                </li>
+                <li><h4>Salesforce Developer Virtual Internship</h4>
+                    Platform: SmartInternz<br>
+                    Gained exposure to Salesforce development, CRM basics, and cloud integration.
+                </li>
+                <li><h4>Full Stack Web Development Internship</h4>
+                    Platform: Eduskills (Virtually)<br>
+                    Practiced building both frontend and backend parts of web applications.
+                </li>
+                <li><h4>FMML Internship</h4>
+                    Topic: Foundations of Modern Machine Learning<br>
+                    Learned about model development, evaluation, and deployment fundamentals.
+                </li>
+            </ul>
+            <button onclick="gohome()">Back</button>
+        </section>
+        <section id="Resume" class="hidden">
+            <ul>
+                <a href="C:\Users\Praveen\Downloads\RESUME.pdf"> View My Resume</a>
+            </ul>
+            <button onclick="gohome()">Back</button>
+        </section>
+        <section id="Contact" class="hidden">
+            <ul>
+                <h4>Contact Me</h4>
+                <form action="mailto:babysarithakamatham@gmail.com" method="post" >
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                <button type="submit">Send</button>
+                </form>
+            </ul>
+            <button onclick="gohome()">Back</button>
+        </section>
+
+        <section id="home">
+            <h2> Welcome to My Portfolio</h2>
+
+        </section>
+    
+</body>
+</html>
